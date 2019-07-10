@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "venv_jucitang/bin/python3.7",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
