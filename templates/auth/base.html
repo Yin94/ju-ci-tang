@@ -1,0 +1,30 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>尹记焗祠堂{%block title%}{%endblock%}</title>
+    <link rel="stylesheet" href="{%static 'auth/auth.css'%}" />
+    <link rel="stylesheet" href="{%static 'bootstrap/css/bootstrap.css'%}" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        {% csrf_token %}
+        <div class="form-group">
+          <input
+            class="form-control"
+            type="text"
+            placeholder="用户名/手机号码/电子邮件"
+            name="username"
+          />
+        </div>
+
+        {%block content%} {%endblock%}
+      </form>
+    </div>
+    <script src="{%static 'auth/auth.js'%}"></script>
+  </body>
+</html>

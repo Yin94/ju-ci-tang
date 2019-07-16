@@ -4,4 +4,8 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('hello')
+    return render(request, 'pages/index.html')
+
+
+def auth(request):
+    return render(request, 'auth/auth.html')

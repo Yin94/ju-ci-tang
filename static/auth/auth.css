@@ -1,0 +1,4 @@
+#href:hover {
+  cursor: pointer;
+  filter: brightness(95%);
+}
