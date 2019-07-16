@@ -1,4 +1,10 @@
-#href:hover {
+#signuphref:hover {
+  text-decoration: none;
+  cursor: pointer;
+  filter: brightness(95%);
+}
+#resetref:hover {
+  text-decoration: none;
   cursor: pointer;
   filter: brightness(95%);
 }

@@ -7,5 +7,9 @@ def index(request):
     return render(request, 'pages/index.html')
 
 
-def auth(request):
-    return render(request, 'auth/auth.html')
+def signin(request):
+    return render(request, 'auth/signin.html')
+
+
+def signup(request):
+    return render(request, 'auth/signup.html')

@@ -13,6 +13,10 @@ document.forms[0].onsubmit = async e => {
     });
     const json = await result.json();
     if (json.errors) throw json.errors[0];
+    else {
+      localStorage.setItem('token', json['token']);
+      window.location.href = '/';
+    }
   } catch (err) {
     //error logic
     console.log(err.message);
