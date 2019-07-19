@@ -1,4 +1,4 @@
-#!/Users/yingong/projects/ju_ci_tang/venv_jucitang/bin/python
+#!/Users/yingong/work/ju-ci-tang/venv_jucitang/bin/python
 
 import sys
 import getopt
